@@ -1116,7 +1116,7 @@ input {
 }
 
 
-/* ETS company logo */
+/* New ETS logo styles. Loaded after main.css. */
 .logo {
     display: inline-flex;
     align-items: center;
@@ -1137,12 +1137,7 @@ input {
 }
 
 @media (max-width: 768px) {
-    .logo img {
-        width: 135px;
-    }
-
-    .footer-brand .logo img {
-        width: 140px;
-    }
+    .logo img { width: 135px; }
+    .footer-brand .logo img { width: 140px; }
 }
 
